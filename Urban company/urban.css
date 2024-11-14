@@ -1,0 +1,970 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+    height: 100%;
+}
+
+img:hover {
+    transform: scale(1.02);
+    transition: transform .2s ease-in-out;
+}
+
+#fixed {
+    position: sticky;
+    width: 100%;
+    padding: 38px;
+    top: 0;
+    background-color: white;
+    z-index: 1
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+#navbar div {
+    display: flex;
+}
+
+#container .first div {
+    padding: 0px 30px;
+    margin-right: 24px;
+    color: #686868;
+}
+
+#container .second {
+    position: relative;
+    right: 30px;
+    padding: 0px 20px 0px 0px;
+    left: 10px;
+}
+
+#container .second .fa-location-dot {
+    position: relative;
+    left: 21px;
+    top: 14px;
+}
+
+#container .second .fa-magnifying-glass {
+    position: relative;
+    top: 15px;
+    left: 27px;
+}
+
+#container .second input {
+    padding: 12px 32px;
+    border-radius: 5px;
+    border-color: #e3e3e3;
+}
+
+.line {
+    border: 1px solid #ededed;
+    margin-top: 10px;
+
+}
+
+#container .end i {
+    padding: 5px 12px;
+}
+
+.mid {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 65px;
+}
+
+.mid .left {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    width: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+
+.mid h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+
+.icon {
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.icon h2 {
+    font-family: os_semi_bold;
+    font-size: 26px;
+    line-height: 28px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 26px;
+    padding: 0 42px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+
+.icon .first_line {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-evenly;
+    padding: 14px 11px 24px 11px;
+    height: 80px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+.icon .first_line div {
+    background-color: rgba(245, 245, 245, 1.00);
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon .second_line div {
+    background-color: rgba(245, 245, 245, 1.00);
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon .third_line div {
+    background-color: rgba(245, 245, 245, 1.00);
+    width: 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon .second_line {
+    display: flex;
+    margin-top: 42px;
+    justify-content: space-evenly;
+    padding: 14px 11px 24px 11px;
+    height: 80px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.icon .third_line {
+    display: flex;
+    margin-top: 42px;
+    justify-content: space-evenly;
+    padding: 14px 11px 24px 11px;
+    margin-bottom: 33px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.left {
+    padding-right: 24px;
+    padding-bottom: 32px;
+    user-select: inherit !important;
+    cursor: inherit !important;
+    touch-action: inherit !important;
+    transition-duration: 0s;
+    font-family: os_semi_bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.right img {
+    width: 667px;
+    height: 615px;
+}
+
+.mid .customer_rating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    padding: 12px;
+}
+
+.mid .customer_rating .service,
+.customer {
+    display: flex;
+}
+
+.mid .customer_rating span {
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+.customer_rating .service div {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: left;
+}
+
+.customer_rating .customer div {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: left;
+}
+
+#secondsection {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 25px;
+    margin: 20px 132px 23px 143px;
+    cursor: pointer;
+}
+
+#secondsection::-webkit-scrollbar {
+    display: none;
+}
+
+#thirdsection {
+    margin: 90px 132px 23px 143px;
+}
+
+#thirdsection .slidebar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#thirdsection h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+
+#thirdsection .slidebar img {
+    border-radius: 10px;
+}
+
+#thirdsection .slidebar p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 15, 15, 1.00);
+    font-weight: 600;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+
+#thirdsection .slidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#aroundsection {
+    margin: 90px 132px 23px 143px;
+}
+
+#aroundsection .slidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#aroundsection h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#aroundsection .slidebar img {
+    border-radius: 10px;
+}
+
+#aroundsection .slidebar .para {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 15, 15, 1.00);
+    font-weight: 600;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif !important;
+}
+
+#aroundsection .slidebar i {
+    font-size: 10px;
+    color: #2b2b2b;
+}
+
+#aroundsection .slidebar .k {
+    color: #2b2b2b;
+}
+
+#aroundsection .slidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#NativeLock {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#NativeLock img {
+    margin-top: 60px;
+}
+
+#foursection {
+    margin: 90px 132px 23px 143px;
+}
+
+#foursection .see_all {
+    display: flex;
+    justify-content: space-between;
+}
+
+#foursection .see_all .salon {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#foursection .see_all .see button {
+    padding: 13px 16px 13px 16px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(110, 66, 229, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border:0.3px solid rgb(227 227 227);
+}
+#foursection .see_all .see button:hover{
+    background-color:rgb(250, 248, 248);
+}
+
+#foursection .slidebar {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#foursection .slidebar div {
+    height: 290.62px;
+    width: 231.6px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+
+}
+
+#foursection .slidebar div img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 83px;
+    cursor: pointer;
+}
+
+#foursection .slidebar div a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(15, 15, 15);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+#fivesection {
+    margin: 50px 132px 23px 143px;
+}
+
+#fivesection h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#fivesection p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: left
+}
+
+#fivesection .slidebar {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 96px;
+    gap: 20px;
+}
+
+#fivesection .slidebar div {
+    height: 290.62px;
+    width: 231.6px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+
+}
+
+#fivesection .slidebar div img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 83px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#fivesection .slidebar div a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(15, 15, 15);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+#sixsection {
+    margin: 50px 132px 23px 143px;
+}
+
+#sixsection h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#sixsection .slidebar {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 96px;
+    gap: 20px;
+}
+
+#sixsection .slidebar div {
+    height: 290.62px;
+    width: 231.6px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+
+}
+
+#sixsection .slidebar div img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 83px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#sixsection .slidebar div a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(15, 15, 15);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+#sixsection .slidebar .bathroom_kitchen img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 58px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#sixsection .slidebar .spray img {
+    object-fit: cover;
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 58px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#RO {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 13px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+#sevensection {
+    margin: 90px 132px 23px 143px;
+}
+
+#sevensection .AC {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sevensection .AC .salon {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#sevensection .AC button {
+    padding: 13px 16px 13px 16px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(110, 66, 229, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: 0.3px solid rgb(227 227 227);
+}
+#sevensection .AC button:hover{
+    background-color:rgb(250, 248, 248);
+}
+
+#sevensection .slidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+    overflow-x: auto;
+}
+
+#sevensection .slidebar div {
+    height: 290.62px;
+    width: 231.6px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+}
+
+#sevensection .slidebar div img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 83px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#sevensection .slidebar .waterpurifier img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 58.1px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#sevensection .slidebar div a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(15, 15, 15);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+#sevensection .slidebar::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+#eightsection {
+    margin: 90px 132px 23px 143px;
+}
+
+#eightsection .Quick {
+    display: flex;
+    justify-content: space-between;
+}
+
+#eightsection .Quick .salon {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#eightsection .Quick button {
+    padding: 13px 16px 13px 16px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(110, 66, 229, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: 0.3px solid rgb(227 227 227);
+}
+#eightsection .Quick button:hover{
+    background-color:rgb(250, 248, 248);
+}
+
+#eightsection .slidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#eightsection .slidebar img {
+    border-radius: 8px;
+}
+
+#eightsection .slidebar .para {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 15, 15, 1.00);
+    font-weight: 600;
+    text-align: left;
+}
+
+#eightsection .slidebar i {
+    font-size: 10px;
+    color: #2b2b2b;
+}
+
+#eightsection .slidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#ninesection {
+    margin: 90px 132px 23px 143px;
+}
+
+#ninesection h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#ninesection .slidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#ninesection .slidebar div {
+    height: 290.62px;
+    width: 231.6px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+}
+
+#ninesection .slidebar div img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 83px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#ninesection .slidebar div a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(15, 15, 15);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+#ninesection p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: left;
+}
+
+#bathroom_cleaning {
+    margin: 90px 132px 23px 143px;
+}
+
+#bathroom_cleaning img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    aspect-ratio: 3/1;
+}
+
+#tensection {
+    margin: 90px 132px 23px 143px;
+}
+
+#tensection h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+#tensection .slidebar {
+    display: flex;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#tensection .slidebar div {
+    height: 290.62px;
+    width: 231.6px;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+}
+
+#tensection .slidebar div img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 83px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#tensection .slidebar .fit img {
+    height: 182.7px;
+    width: 229.6px;
+    margin-top: 58px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#tensection .slidebar div a {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(15, 15, 15);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    top: 21px;
+    left: 25px;
+}
+
+footer {
+    background-color: #f5f5f5;
+}
+
+#footer {
+    margin: 90px 132px 23px 143px;
+}
+
+#footer .symbol {
+    background-color: transparent;
+}
+
+#footer .symbol img {
+    object-fit: contain;
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+footer #footer .em {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 179px;
+}
+
+footer #footer .em p {
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(15, 15, 15, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+footer #footer .em a {
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 4px;
+}
+
+
+footer #footer .em .social svg {
+    width: 20px;
+    margin-left: 7.5px;
+}
+
+footer #footer .em .social .signs span {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-color: white;
+    border: 0.8px groove #e3e3e3;
+    border-radius: 50%;
+}
+
+footer #footer .em .social img {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+footer #line {
+    border: 0.5px solid #e3e3e3;
+    margin-bottom: 80px;
+}
+
+footer #last p {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(84, 84, 84, 1.00);
+    text-decoration-line: none;
+    text-transform: none;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px 0px 32px 145px;
+}
